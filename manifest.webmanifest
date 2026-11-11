@@ -7,7 +7,7 @@
  "scope": "./",
  "display": "standalone",
  "orientation": "any",
- "background_color": "#F2EDE8",
+ "background_color": "#FFFFFF",
  "theme_color": "#871910",
  "icons": [
   {
@@ -33,12 +33,12 @@
    "url": "./dossier.html"
   },
   {
-   "name": "Xuleta",
-   "url": "./kit.html#xuleta"
+   "name": "Guia",
+   "url": "./kit.html#guia"
   },
   {
-   "name": "Pla de 7 dies",
-   "url": "./kit.html#pla"
+   "name": "Primers passos",
+   "url": "./kit.html#passos"
   }
  ]
 }
