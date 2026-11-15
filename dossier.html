@@ -213,10 +213,13 @@ section.sx > h2 + *{margin-top:0}
 #doc ul:not(.chk)>li::before{width:6px!important;height:6px!important;border-radius:50%!important;background:var(--nd)!important;box-shadow:none!important;top:.68em!important;left:8px!important}
 #doc ol li::marker{color:var(--acc);font-weight:600}
 .box{border-left:0!important;border-radius:6px!important;background:var(--band)!important;padding:24px 28px!important;margin:36px 0!important}
-.box-l{font:600 .75rem/1.2 var(--sans)!important;letter-spacing:.16em!important;color:var(--tp)!important;margin-bottom:12px!important;text-transform:uppercase}
+.box-l{font:600 .8125rem/1.2 var(--sans)!important;letter-spacing:.16em!important;color:var(--tp)!important;margin-bottom:12px!important;text-transform:uppercase}
 .box p{margin:8px 0!important}
-.box.warn{background:#FBF1EE!important}.box.warn .box-l{color:var(--acc)!important}
-:root[data-theme="dark"] .box.warn{background:#2A1C18!important}
+/* Caixes «Atenció»: opció D (15-11-2026), fons taupe mig #6B5F57, etiqueta mostassa, text beix. Alternativa guardada, opció A:
+   .box.warn{background:#F2EDE8!important;border:1.5px solid #871910!important}.box.warn .box-l{color:#871910!important} */
+.box.warn{background:#6B5F57!important;color:#F2EDE8!important}.box.warn .box-l{color:#BEC800!important}
+.box.warn p,.box.warn li{color:#F2EDE8!important}.box.warn strong,.box.warn b{color:#fff!important}
+.box.warn a{color:#fff!important;text-decoration:underline}.box.warn code{background:#574C45!important;color:#fff!important}
 .box.unv{background:transparent!important;border:1px dashed var(--nd)!important}
 .box.tpl{background:transparent!important;border:1px solid var(--hl)!important}
 .notice{border-left:0!important}
